@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(SecularOne-Regular.ttf);
+  }
+
+body{
+    background:#1abc9c;
+}
+
+.myClass{
+    
+    font-size: 20px;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 30px;
+    transition: 1s;
+    
+}
+.logo{
+    margin-top: 0%;
+}
+
+nav{
+    margin-top: 0%;
+    background: #2c3e50;
+    color: #fff;
+    
+}
+
+ul{
+    display: inline-flex;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 20px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+li:hover{
+    background: #c0392b;
+    transition: 0.5s ease-in-out;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+.video-container {
+    align-content: center;
+     padding-bottom: 56.25%; 
+     padding-top: 40px; 
+     padding-left: 30px;
+     padding: 1%;
+     margin-top: 30px;
+     margin-left: 30px;
+    
+    }
+.comming{
+    align-content: center;
+    padding-bottom: 56.25%; 
+     padding-top: 30px; 
+     padding-left: 30px;
+     padding: 1%;
+     margin-top: 30px;
+     margin-left: 30px;
+     
+}
+.content{
+    padding-left: 30px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+h4{
+    color: #fff;
+}
+.background{
+    background:#1abc9c;
+}
+@font-face{
+font-family: 'Noto Sans JP', sans-serif;
+}
